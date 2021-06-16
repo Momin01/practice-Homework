@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.homeWork{
+    padding: 10px 25px;
+    margin-top: 35px;
+    border: 5px solid tomato;
+    display: inline-block;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.homeWork:hover{
+    background-color: tomato;
+    color: white;
+    transform: scaleX(1.2);
+}
+
+.rotation{
+    padding: 10px 20px;
+    margin-top: 50px;
+    border: 5px dashed tomato;
+    display: inline-block;
+    border-radius: 0px 10px 0px 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.rotation:hover{
+    transform: rotate(360deg);
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.skew{
+    padding: 10px 20px;
+    margin-top: 25px;
+    border: 5px dotted tomato;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.skew:hover{
+    transform: skew(25deg);
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn{
+    padding: 10px 20px;
+    margin-top: 30px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+    opacity: 0.6;
+}
+
+
+.shadoweffect{
+    background-color: tomato;
+    margin-left: 38%;
+    margin-top: 30px;
+    width: 350px;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 15px;
+    outline: 10px double tomato;
+    outline-offset: 8px;
+    transition: 0.5s;
+}
+
+.shadoweffect h2{
+    padding-top: 80px;
+    color: white;
+}
+
+.shadoweffect:hover{
+    box-shadow: 5px 5px 20px 5px black;
+    transform: scale(1.02);
+    border-radius: 0px;
+}
